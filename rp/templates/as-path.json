@@ -1,0 +1,12 @@
+{
+    "configuration": {
+        "policy-options": {
+            "as-path": [
+                {
+                    "name": "as1299",
+                    "path": "^1299$"
+                }
+            ]
+        }
+    }
+}

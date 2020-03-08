@@ -1,0 +1,18 @@
+{
+    "configuration": {
+        "policy-options": {
+            "community": [
+                {
+                    "name": "14525-informational",
+                    "members": [
+                        "14525:0000",
+                        "14525:1021",
+                        "14525:2840",
+                        "14525:3001",
+                        "14525:4001"
+                    ]
+                }
+            ]
+        }
+    }
+}

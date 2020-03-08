@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "rp"
+version = "0.1.0"
+description = "Routing Policy"
+authors = ["Matt Love <matt@stellar.tech>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+httpx = "^0.11"
+pydantic = "^1.4"
+pyyaml = "^5.3"
+stackprinter = "^0.2.3"
+ujson = "^2.0.0"
+loguru = "^0.4.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
+black = "^19.10b0"
+flake8-black = "^0.1.1"
+bandit = "^1.6.2"
+isort = "^4.3.21"
+pep8-naming = "^0.9.1"
+flake8-print = "^3.1.4"
+flake8-isort = "^2.8.0"
+flake8-docstrings = "^1.5.0"
+flake8-bugbear = "^20.1.4"
+flake8-bandit = "^2.1.2"
+flake8-comprehensions = "^3.2.2"
+flake8-deprecated = "^1.3"
+mccabe = "^0.6.1"
+
+[tool.black]
+line-length = 88
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+

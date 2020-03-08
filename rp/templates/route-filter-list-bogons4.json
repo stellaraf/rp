@@ -1,0 +1,73 @@
+{
+    "configuration": {
+        "policy-options": {
+            "route-filter-list": [
+                {
+                    "name": "bogons4",
+                    "rf_list": [
+                        {
+                            "address": "0.0.0.0/0",
+                            "exact": [null]
+                        },
+                        {
+                            "address": "0.0.0.0/8",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "10.0.0.0/8",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "100.64.0.0/10",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "127.0.0.0/8",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "192.88.99.0/24",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "192.168.0.0/16",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "198.18.0.0/15",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "198.51.100.0/24",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "203.0.113.0/24",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "169.254.0.0/16",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "172.16.0.0/12",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "192.0.2.0/24",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "224.0.0.0/4",
+                            "orlonger": [null]
+                        },
+                        {
+                            "address": "240.0.0.0/4",
+                            "orlonger": [null]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

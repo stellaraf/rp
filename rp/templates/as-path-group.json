@@ -1,0 +1,49 @@
+{
+    "configuration": {
+        "policy-options": {
+            "as-path-group": [
+                {
+                    "name": "bogons-asns",
+                    "as-path": [
+                        {
+                            "name": "zero",
+                            "path": ".* 0 .*"
+                        },
+                        {
+                            "name": "as_trans",
+                            "path": ".* 23456 .*"
+                        },
+                        {
+                            "name": "examples1",
+                            "path": ".* [64496-64511] .*"
+                        },
+                        {
+                            "name": "examples2",
+                            "path": ".* [65536-65551] .*"
+                        },
+                        {
+                            "name": "reserved1",
+                            "path": ".* [64512-65534] .*"
+                        },
+                        {
+                            "name": "reserved2",
+                            "path": ".* [4200000000-4294967294] .*"
+                        },
+                        {
+                            "name": "last16",
+                            "path": ".* 65535 .*"
+                        },
+                        {
+                            "name": "last32",
+                            "path": ".* 4294967295 .*"
+                        },
+                        {
+                            "name": "iana-reserved",
+                            "path": ".* [65552-131071] .*"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "name": "filter-bogons",
+    "term": [
+        {
+            "name": "ipv4",
+            "from": {
+                "route-filter-list": [
+                    {
+                        "name": "bogons4"
+                    }
+                ]
+            },
+            "then": {
+                "accept": [null]
+            }
+        },
+        {
+            "name": "ipv6",
+            "from": {
+                "route-filter-list": [
+                    {
+                        "name": "bogons6"
+                    }
+                ]
+            },
+            "then": {
+                "accept": [null]
+            }
+        },
+        {
+            "name": "asn",
+            "from": {
+                "as-path-group": ["bogons-asns"]
+            },
+            "then": {
+                "accept": [null]
+            }
+        }
+    ]
+}
