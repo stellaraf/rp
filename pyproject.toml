@@ -3,7 +3,7 @@ name = "rp"
 version = "0.1.0"
 description = "Routing Policy"
 authors = ["Matt Love <matt@stellar.tech>"]
-license = "MIT"
+license = "BSD-3-Clause-Clear"
 
 [tool.poetry.dependencies]
 python = "^3.6"
